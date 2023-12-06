@@ -52,15 +52,15 @@ div {
   
 
 .parallax-layer.layer1 {
-    height: 100vh;
-    background-image: url('../assets/bilder/background.jpg');
+    height: 1000vh;
+    background-image: url('../assets/bilder/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     
     border-style: solid;
-    border-color: red;
+    border-color: silver;
    
   
     width: 100%;
@@ -69,8 +69,10 @@ div {
    }
    
    .parallax-layer.layer2 {
-    background-image: url('../assets/bilder/1.png');
-    background-size: cover;
+    background-image: url('../assets/bilder/3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
     top:10rem;
     width: 100%;
     height: 100%;
@@ -82,14 +84,20 @@ div {
 
    }
    .parallax-layer.layer3 {
+    background-image: url('../assets/bilder/mirror-transparent.png');
+    background-repeat: no-repeat;
+    background-position: center;
     top:20rem;
     width: 100%;
     height: 50rem;
-    border-style: solid;
-    border-color: violet;
+   
+  
    
     
    }
 
+   .outline-clipper{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+   }
 
 

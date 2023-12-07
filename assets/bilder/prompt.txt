@@ -1,8 +1,10 @@
 prompt:
-ich brauche ein  bild von einem einzelnen 3d objekten. objekt: spiegel. style: isometrisch aus der vogelperspektive , als ob es links auf einer wand hängt. render: blender eevee mit outliner. hintergrund einfarbig greenscreen(ohne schatten, flat color)
-
+ich brauche ein  bild von einem einzelnen 3d objekten. objekt: spiegel. style: isometrisch aus der vogelperspektive , als ob es links auf einer wand hängt. render: blender eevee mit outliner. 
 
     Geben Sie einen Prompt ein, der das gewünschte Bild beschreibt. Zum Beispiel: “Ein kreisförmiges Icon für eine Website, gerendert mit eevee blender und mit einem Umriss. Das Icon-Thema ist 3D-Design.”
     Fügen Sie am Ende des Prompts die Anweisung “#graphic_art(prompt)” hinzu, wobei “prompt” der von Ihnen eingegebene Prompt ist. Zum Beispiel: “#graphic_art(Ein kreisförmiges Icon für eine Website, gerendert mit eevee blender und mit einem Umriss. Das Icon-Thema ist 3D-Design.)”
     Senden Sie den Prompt an die KI und warten Sie auf die Antwort. Die KI wird versuchen, das Bild zu erstellen und es Ihnen in einem separaten Fenster anzuzeigen.
     Wenn Ihnen das Bild gefällt, können Sie es ausschneiden und verwenden. Wenn nicht, können Sie den Prompt ändern oder einen neuen Prompt eingeben und den Vorgang wiederholen.
+
+prompt:
+ #graphic_art spiegel, gerendert mit eevee blender und mit einem Umriss. isometrisch aus der vogelperspektive , als ob es links auf einer wand hängt.

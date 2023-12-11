@@ -39,9 +39,6 @@ div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-   
-   
   
     width: 100%;
     height: 100rem;
@@ -78,12 +75,7 @@ div {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
    }
    nav{
-  
-   
-   
 
-
-    
 }
    /*ab hier navbar*/
    .navbar {
@@ -93,25 +85,61 @@ div {
     width: 10%;
     height: 20%;
     z-index: 1000;
-    display: flex;
-    flex-direction: column;
-
     background-color: rgba(255, 228, 196, 0.493);
    
     border-style: solid;
     overflow: hidden;
     background-size: cover;
     justify-content: space-evenly;
-   
-   
 
-    
+    transform: translateX(-70%); 
+    transition: transform 0.5s ease-in-out; 
    }
+   .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    
+    grid-template-areas:
+      "a v v v"
+      "b v v v"
+      "c v v v"
+      "d v v v";
+  }
+  
+  .a { grid-area: a; }
+  
+  .b { grid-area: b; }
+  
+  .c { grid-area: c; }
+  
+  .d { grid-area: d; }
+  
+  .v { grid-area: v;
+    writing-mode: vertical-rl;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: large;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ADD8E6;
+    
+
+  }
+
+
+
+  .navbar:hover{
+    
+    transform: translateX(0);
+  }
   .navbar li{
     font-size: large;
     text-align:start;
     border-bottom: 1px solid #333;
-    
+
     
   }
    .navbar li:hover{
@@ -123,7 +151,35 @@ div {
     text-shadow: 0 0 5px #ffee10;
     transition: all 2s cubic-bezier(0.075, 0.81, 0.165, 1);
   }
+  .blink {
+    animation-name: blink-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      
+    }
+    25% {
+      
+      text-shadow: 0 0 10px #ffee10;
+      background-color:  #5b737c;
 
+    }
+    50% {
+      
+      text-shadow: 0 0 10px purple;
+      color: white;
+      
+    }
+    75% {
+      text-shadow: 0 0 10px #ffee10;
+      background-color:  #5b737c;
+    }
+  }
+  
+   
 
 
 

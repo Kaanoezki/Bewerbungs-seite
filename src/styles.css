@@ -35,7 +35,7 @@ div {
 
 .parallax-layer.layer1 {
     height: 1000vh;
-    background-image: url('../assets/bilder/bg1.jpg');
+    background-image: url(/assets/bilder/bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ div {
    }
    
    .parallax-layer.layer2 {
-
+    
     background-repeat: no-repeat;
     background-position: center;
     
@@ -56,7 +56,7 @@ div {
     height: 50rem;
     border-style: solid;
     border-color: blue;
-  
+    
     
 
    }

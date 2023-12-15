@@ -8,3 +8,5 @@ ich brauche ein  bild von einem einzelnen 3d objekten. objekt: spiegel. style: i
 
 prompt:
  #graphic_art spiegel, gerendert mit eevee blender und mit einem Umriss. isometrisch aus der vogelperspektive , als ob es links auf einer wand hängt.
+
+generate me : 1k map, blueprint texture ,blender render: eevee

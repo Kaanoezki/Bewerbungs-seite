@@ -4,22 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/GLTFLoader.min.js"></script>
-    <script type="text/javascript" src="../scripts/OBJLoader.js"></script>
-    <script src="../scripts/GLTFLoader.js"></script>
+   <!--three js links-->
+ <!--three js links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+    <script src="main.js"></script>
+   
     <title>Bewerbung</title>
 </head>
-
 <body>
-    <canvas id="ThreeCanvas"></canvas>
-    <script src="navigationController.js">  </script>
+    
     <nav >
         <ul class="navbar container ">
             <li class="a">Start</li>
@@ -28,19 +31,20 @@
             <li class="d">letztes Projekt</li>
             <a class="v blink">Navigation</a>
             </ul>
-           
-            
-
     </nav>
 
-  <div class = "parallax">
-    <div class="parallax-layer layer1 outline-clipper">1</div>
-    <div class="parallax-layer layer2 outline-clipper">2</div>
-    <div class="parallax-layer layer3 outline-clipper">3</div>
+        <div class = "parallax">
+            <div class="parallax-layer layer1 outline-clipper">1</div>
+            <div class="parallax-layer layer2 outline-clipper">2
+                <div class ="parallax-container">
+                    <canvas id="scene-container">
+                    </canvas>
+            </div>
+        </div>    
+            <div class="parallax-layer layer3 outline-clipper">3</div>
+        </div>
+    </div>
 </div>
-
-
-
 
 
 </body>
